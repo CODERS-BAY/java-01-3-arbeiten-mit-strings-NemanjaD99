@@ -5,7 +5,11 @@ public class Main {
         System.out.println(text);
         System.out.println(text.toUpperCase());
         System.out.println(text.toLowerCase());
-        System.out.println(text.replace(text, text2));
+
+        for(int i=0;i<=14;i++) {System.out.println(text.replace(text, text2));}
 
     }
+
+
+
 }
